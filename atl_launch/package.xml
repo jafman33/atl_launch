@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>atl_launch</name>
+  <version>1.0.0</version>
+  <description>Collection of launch and config files</description>
+  <maintainer email="juan-pablo_afman@yamaha-motor.com">pablo</maintainer>
+  <license>Exclusive property of ATL Robotics, USA</license>
+
+  <depend>rviz2</depend>
+  <depend>robot_state_publisher</depend>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <test_depend>pymap3d-pip</test_depend>
+  <test_depend>xvfb</test_depend>
+
+  <test_depend>ament_cmake_pep257</test_depend>
+  <test_depend>ament_cmake_flake8</test_depend>
+  <test_depend>launch_testing_ament_cmake</test_depend>
+
+  <test_depend>joy</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
